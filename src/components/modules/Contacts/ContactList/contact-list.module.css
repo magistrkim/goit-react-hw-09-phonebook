@@ -1,0 +1,32 @@
+.item__btn {
+    min-height: 20px;
+    cursor: pointer;
+    background-color: rgb(246, 111, 1);
+    font-size: 12px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 4px 10px rgba(8, 2, 55, 0.5);
+}
+.list {
+    margin-top: 20px;
+    display: grid;
+    gap: 10px;
+}
+.item {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .item:nth-child(even){
+    background-color: #f2f2f2;
+}
+.item:nth-child(odd){
+    background-color: #ffffff;
+} */
+
+.item:hover,
+.item:focus {
+    color: rgb(246, 111, 1);
+    cursor: pointer;
+}

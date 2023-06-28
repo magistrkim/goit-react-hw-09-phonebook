@@ -1,0 +1,11 @@
+.title {
+    display: block;
+    text-align: center;
+    font-family: 'Rock 3D';
+    font-size: 64px;
+    font-weight: 400;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: rgb(246,111,1);
+    /* color:  #36d7b7; */
+}

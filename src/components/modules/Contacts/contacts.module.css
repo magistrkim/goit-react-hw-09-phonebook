@@ -1,0 +1,23 @@
+.section {
+    display: flex;
+    gap: 20px;
+}
+.wrapper {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.title {
+    font-size: 32px;
+    color: rgb(14, 65, 133);
+}
+.block {
+    min-height: 20px;
+    width: 400px;
+    border-radius: 4px;
+    padding: 24px;
+    margin-bottom: 20px;
+    background-color: rgb(223, 223, 223);
+    box-shadow: 2px 4px 10px rgba(8, 2, 55, 0.5);
+}
+
+

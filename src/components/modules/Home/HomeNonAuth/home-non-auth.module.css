@@ -1,0 +1,22 @@
+.section {
+    min-height: 100vh;
+    background-image:  url('../../../../images/k-v-s-t.jpg');
+    background-size: cover;
+}
+.container {
+    padding: 20px;
+    max-width: 1280px;
+    max-height: 200px;
+    margin: 0 auto;
+}
+/* .titleHome {
+    display: block;
+    text-align: center;
+    max-width: 700px;
+    font-family: 'Rock 3D';
+    font-size: 64px;
+    font-weight: 400;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: rgb(246,111,1);
+} */

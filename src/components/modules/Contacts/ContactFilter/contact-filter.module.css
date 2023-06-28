@@ -1,0 +1,22 @@
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: rgb(14, 65, 133);
+}
+.input {
+    min-width: 380px;
+    display: block;
+    padding: 8px;
+    border-radius: 2px;
+    border: solid 1px  rgb(123, 122, 118);;
+    background-color: rgb(246, 244, 239);
+    min-height: 30px;
+}
+.input::placeholder {
+    font-size: 16px;
+    font-family: monospace;
+    color: rgb(14, 65, 133);
+}
