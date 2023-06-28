@@ -4,10 +4,10 @@ export const getFilteredContacts = ({ contacts, filter }) => {
     return contacts.items;
   }
   const normilizedFilter = filter.toLocaleLowerCase();
-  const result = contacts.items.filter(({ name, phone }) => {
+  const result = contacts.items.filter(({ name, number }) => {
     return (
       name.toLowerCase().includes(normilizedFilter) ||
-      phone.includes(normilizedFilter)
+      number.includes(normilizedFilter)
     );
   });
   return result;
