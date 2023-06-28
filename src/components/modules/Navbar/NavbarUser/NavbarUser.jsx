@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { logout } from 'redux/auth/auth-operations';
-import { getUser } from 'redux/auth/auth-selectors';
+import { logout } from '../../../../redux/auth/auth-operations';
+import { getUser } from '../../../../redux/auth/auth-selectors';
 import css from './navbar-user.module.css';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
@@ -21,7 +21,6 @@ const NavbarUser = () => {
   const dispatch = useDispatch();
   const onLogout = () => {
     dispatch(logout());
-    console.log('Click')
   };
   return (
     <header>
@@ -49,12 +48,10 @@ const NavbarUser = () => {
             {user && <img src={user} alt={name} className={css.btnIcon} />}
             {name}
           </Button>
-          <Button onClick={onLogout}>
-            {logoutIcon && (
-              <img src={logoutIcon} alt={name} className={css.btnIcon} />
-            )}
-            Logout
-          </Button>
+          <button onClick={onLogout} className={css.btn}>
+            <img src={logoutIcon} alt={name} className={css.btnIcon} />
+            logout
+          </button>
         </div>
       </div>
     </header>

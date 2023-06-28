@@ -3,7 +3,6 @@ import useForm from '../../../hooks/useForm';
 import initialState from './initialState';
 import fields from './fields';
 import css from './register-form.module.css';
-import Button from 'components/shared/Button/Button';
 
 const RegisterForm = ({ onSubmit }) => {
   const { state, handleChange, handleSubmit } = useForm({
@@ -12,12 +11,9 @@ const RegisterForm = ({ onSubmit }) => {
   });
   const { name, email, password } = state;
   return (
-    <>
+    <div className={css.wrapper}>
       <form onSubmit={handleSubmit} className={css.form}>
-        <TextInput value={name}
-          handleChange={handleChange}
-          {...fields.name} 
-        />
+        <TextInput value={name} handleChange={handleChange} {...fields.name} />
         <TextInput
           value={email}
           handleChange={handleChange}
@@ -28,9 +24,9 @@ const RegisterForm = ({ onSubmit }) => {
           handleChange={handleChange}
           {...fields.password}
         />
-        <Button>Register</Button>
+        <button className={css.btn}>Register</button>
       </form>
-    </>
+    </div>
   );
 };
 
