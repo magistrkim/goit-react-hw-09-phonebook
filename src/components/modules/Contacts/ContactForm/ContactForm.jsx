@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import useForm from 'hooks/useForm';
-import Button from 'components/shared/Button/Button';
 import css from './contact-form.module.css';
 
 const initialState = {
@@ -50,7 +49,7 @@ const ContactForm = ({ onSubmit }) => {
           parentheses and can start with +"
           required
         />
-        <Button className={css.btn}>Add contact</Button>
+        <button className={css.btn}>Add contact</button>
       </div>
     </form>
   );

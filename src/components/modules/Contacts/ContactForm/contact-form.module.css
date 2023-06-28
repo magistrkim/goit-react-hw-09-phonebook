@@ -1,11 +1,15 @@
 .block {
     display: flex;
     flex-direction: column;
-    min-width: 400px;
-    border-radius: 4px;
-    padding: 24px;
-    background-color: rgb(223, 223, 223);
-    box-shadow: 2px 4px 10px rgba(8, 2, 55, 0.5);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 450px;
+    height: 450px;
+    background-color: transparent;
+    border: solid 2px #36d7b7;
+    border-radius: 50%;
 }
 .label {
     font-size: 24px;
@@ -16,8 +20,8 @@
     margin-bottom: 20px;
     padding: 8px;
     border-radius: 2px;
-    border: solid 1px  rgb(123, 122, 118);;
-    background-color: rgb(246, 244, 239);
+    border: dotted 1px  rgb(123, 122, 118);;
+    background-color: rgb(255, 255, 255);
     min-height: 30px;
 }
 .input::placeholder {
@@ -25,6 +29,26 @@
     font-family: monospace;
     color: rgb(14, 65, 133);
 }
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    max-width: 160px;
+    background-color: rgb(246, 111, 1);
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
 
+    &:hover {
+        
+    background-color: #36d7b7; 
+
+    }
+}
 
 

@@ -1,5 +1,5 @@
 .wrapper {
-    max-width: 500px;
+    width: 540px;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -11,35 +11,30 @@
     justify-content: center;
     align-items: center;
     padding: 30px;
-    min-height: 260px;
+    min-height: 480px;
     border: solid 2px rgb(246, 111, 1);
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-
+    border-radius: 50%;
 }
 .btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100px;
-    min-width: 100px;
-    background-image: linear-gradient(135deg, #e4ba6b 0%, #ff8341 100%);
-    /* background-color: rgb(246, 111, 1); */
+    min-height: 42px;
+    min-width: 200px;
+    background-color: rgb(246, 111, 1);
     text-transform: uppercase;
     font-size: medium;
     font-weight: 500;
     color: #ffffff;
     cursor: pointer;
     border: none;
-    border-radius: 50%;
+    border-radius: 4px;
 
     &:hover {
-        background-image: linear-gradient(120deg, #36d7b7 0%, #5cc2b1 100%);
-       /* background-color: #36d7b7;  */
+        
+    background-color: #36d7b7; 
+
     }
 }
-/* .btnIcon {
-    margin-right: 4px;
-    width: 60px;
-    height: 60px;
-} */
+
+

@@ -10,7 +10,7 @@ const LoginPage = () => {
   };
   return (
     <div>
-      <Title>Please sign in</Title>
+      <Title>sign in</Title>
       <LoginForm onSubmit={handleLogin} />
     </div>
   );

@@ -40,7 +40,7 @@ const Contacts = () => {
 
   return (
     <>
-      <div className={css.section}>
+      <div className={css.container}>
         <div className={css.wrapper}>
           <h2 className={css.title}>Phonebook</h2>
           <ContactForm onSubmit={handleAddContact} />

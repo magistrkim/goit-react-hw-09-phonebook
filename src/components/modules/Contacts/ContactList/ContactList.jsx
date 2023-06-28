@@ -16,7 +16,11 @@ const ContactList = ({ contacts, removeContact }) => {
       </button>
     </li>
   ));
-  return <ul className={css.list}>{contactItems}</ul>;
+  return (
+    <div className={css.block}>
+    <ul className={css.list}>{contactItems}</ul>
+    </div>
+  );
 };
 
 export default ContactList;
