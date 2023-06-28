@@ -42,11 +42,9 @@ const Contacts = () => {
     <>
       <div className={css.container}>
         <div className={css.wrapper}>
-          <h2 className={css.title}>Phonebook</h2>
           <ContactForm onSubmit={handleAddContact} />
         </div>
         <div className={css.wrapper}>
-          <h2 className={css.title}>Contacts</h2>
           <div className={css.block}>
             <ContactFilter value={filter} handleChange={handleFilter} />
             <ContactList

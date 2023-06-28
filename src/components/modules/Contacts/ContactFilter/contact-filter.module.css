@@ -1,19 +1,24 @@
-
-
-label {
-    display: block;
+.label {
+    font-size: 36px;
+    font-weight: 600;
     margin-bottom: 10px;
-    font-size: 24px;
     color: rgb(14, 65, 133);
+    font-family: 'Moirai One';
 }
 .input {
-    min-width: 380px;
-    display: block;
+    margin-bottom: 20px;
     padding: 8px;
     border-radius: 2px;
-    border: solid 1px  rgb(123, 122, 118);;
-    background-color: rgb(246, 244, 239);
+    border: solid 1px  rgb(14, 65, 133);;
+    background-color: rgb(255, 255, 255);
     min-height: 30px;
+    min-width: 240px;
+    outline: none;
+    &:hover {
+        
+        border: solid 1px  rgb(246, 111, 1); 
+    
+        }
 }
 .input::placeholder {
     font-size: 16px;

@@ -5,7 +5,7 @@ const ContactFilter = ({ handleChange, value }) => {
   return (
     <>
       <label className={css.label} htmlFor="">
-        Find contacts by name
+        Search
       </label>
       <input
         value={value}

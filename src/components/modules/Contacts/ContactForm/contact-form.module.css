@@ -12,17 +12,26 @@
     border-radius: 50%;
 }
 .label {
-    font-size: 24px;
+    font-size: 36px;
+    font-weight: 600;
     margin-bottom: 10px;
     color: rgb(14, 65, 133);
+    font-family: 'Moirai One';
 }
 .input {
     margin-bottom: 20px;
     padding: 8px;
     border-radius: 2px;
-    border: dotted 1px  rgb(123, 122, 118);;
+    border: solid 1px  rgb(14, 65, 133);;
     background-color: rgb(255, 255, 255);
     min-height: 30px;
+    min-width: 240px;
+    outline: none;
+    &:hover {
+        
+        border: solid 1px  rgb(246, 111, 1); 
+    
+        }
 }
 .input::placeholder {
     font-size: 16px;

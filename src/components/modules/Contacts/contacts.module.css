@@ -4,6 +4,7 @@
     gap: 40px;
     justify-content: center;
     align-items: flex-start;
+    margin: 0 auto;
     padding: 20px;
     margin-bottom: 40px;
 }
@@ -27,8 +28,8 @@
     padding: 30px;
     background-color: transparent;
     border: solid 2px #36d7b7;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 270px;
+    border-top-right-radius: 270px;
     flex-grow: 1;
     overflow-y: auto;
 }
