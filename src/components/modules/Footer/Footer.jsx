@@ -37,7 +37,16 @@ const Footer = () => {
         </li>
       </ul>
       <p className={css.text}>
-        All rights reserved. &copy; Nataliya Kim with{' '}
+        All rights reserved. &copy;{' '}
+        <a
+          href="http://magistrkim.me/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Kim web site link"
+        >
+          <span className={css.myLogo}>NataliyaKim</span>
+        </a>{' '}
+        with{' '}
         <a
           href="https://goit.global/ua/"
           target="_blank"

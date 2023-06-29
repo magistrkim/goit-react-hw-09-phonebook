@@ -1,43 +1,97 @@
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    position: sticky;
+    z-index: 1100;
+    padding: 12px 20px 12px 20; 
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(1, 223, 197, 0.519),
+          0px 6px 12px 0px rgba(255, 255, 255, 0.649), 0px 0px;
+    
+          @media screen and (min-width: 768px) {
+            padding: 0px 20px 0px 20px;
+          }
+          @media screen and (min-width: 1200px) {
+            padding: 0px 80px 0px 80px;
+          }
+}
 .container {
-    max-width: 1220px;
-    max-height: 200px;
+    max-height: 160px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    margin-bottom: 40px;
+
+    @media screen and (min-width: 1180px) {
+        max-width: 1220px;
+        max-height: 200px;
+      }
 }
 .logo {
     display: flex;
     align-items: center;
-    gap: 20px;
-}
-.img {
-    width: 80px;
-    height: 80px; 
-    padding: 20px;
-    border-radius: 50%;
-    box-shadow: 0px 1px 2px 2px rgba(54, 215, 183, 0.8); 
 
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.img {
+    width: 50px;
+    height: 50px; 
+    padding: 5px;
+    border-radius: 50%;
+    border: solid 1px rgba(54, 215, 183, 0.8);
+
+     @media screen and (min-width: 768px) {
+        width: 60px;
+        height: 60px; 
+        padding: 10px;
+    }
+    @media screen and (min-width: 1180px) {
+        width: 80px;
+        height: 80px; 
+        padding: 20px;
+    }
     &:hover {
-        box-shadow: 0px 1px 2px 2px rgba(246, 111, 1, 0.8); 
+        border: solid 1px rgba(246, 111, 1, 0.8); 
      }
 }
 .title {
-    font-family: 'Moirai One';
-    font-size: 36px;
-    font-weight: 400;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: rgb(54,215,183);
+    @media screen and (max-width: 767.98px) {
+        visibility: hidden;
+    }
+    @media screen and (min-width: 768px) {
+        font-family: 'Moirai One';
+        font-size: 24px;
+        font-weight: 400;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: rgb(54,215,183);
+    }
+    @media screen and (min-width: 1180px) {
+        font-size: 36px;
+    }
 }
 .navigation {
     display: flex;
-    gap: 24px;
+    gap: 18px;
 }
 .btnIcon {
-    margin-right: 4px;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
+
+    @media screen and (min-width: 768px) {
+        width: 50px;
+        height: 50px;
+    }
+    @media screen and (min-width: 1180px) {
+        width: 60px;
+        height: 60px;
+    }
 }

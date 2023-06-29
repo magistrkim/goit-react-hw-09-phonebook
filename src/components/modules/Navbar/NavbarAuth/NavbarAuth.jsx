@@ -22,7 +22,7 @@ const NavbarAuth = () => {
   const filteredPages = !isLogin ? pages.filter(page => !page.private) : pages;
   return (
     <>
-      <header>
+      <header className={css.header}>
         <div className={css.container}>
           <div>
             <Link to="/" className={css.logo}>

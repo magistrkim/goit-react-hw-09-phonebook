@@ -23,7 +23,7 @@ const NavbarUser = () => {
     dispatch(logout());
   };
   return (
-    <header>
+    <header className={css.header}>
       <div className={css.container}>
         <div>
           <Link to="/" className={css.logo}>

@@ -1,32 +1,54 @@
 .wrapper {
     display: grid;
-    grid-template-columns: 140px 1fr;
+    grid-template-columns: 80px 1fr;
     align-items: center;
+
+    @media screen and (min-width: 601px) {
+        display: grid;
+        grid-template-columns: 140px 1fr;
+        align-items: center;
+      }
 }
 .label {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     color: rgb(14, 65, 133);
+
+    @media screen and (min-width: 601px) {
+        font-size: 16px;
+      }
 }
 .input {
-    padding: 8px;
+    padding: 6px;
     border-radius: 2px;
     border: solid 1px  rgb(14, 65, 133);;
     background-color: rgb(255, 255, 255);
-    min-height: 30px;
-    min-width: 240px;
+    min-height: 20px;
+    min-width: 160px;
     outline: none;
 
-    &:hover {
-        
+    @media screen and (min-width: 601px) {
+        padding: 8px;
+        border-radius: 2px;
+        border: solid 1px  rgb(14, 65, 133);;
+        background-color: rgb(255, 255, 255);
+        min-height: 30px;
+        min-width: 240px;
+        outline: none;
+      }
+
+    &:hover {  
         border: solid 1px  #36d7b7; 
-    
-        }
+    }
 }
 .input::placeholder {
-    font-size: 16px;
+    font-size: 14px;
     font-family: monospace;
     color: rgb(14, 65, 133);
+
+    @media screen and (min-width: 601px) {
+        font-size: 16px;
+      }
   }
   

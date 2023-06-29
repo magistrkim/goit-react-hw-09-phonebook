@@ -2,10 +2,18 @@
     display: block;
     text-align: center;
     font-family: 'Moirai One';
-    font-size: 64px;
-    font-weight: 700;
+    font-size: 36px;
+    font-weight: 600;
     margin: 0 auto;
     text-transform: uppercase;
     color: rgb(246,111,1);
     /* color:  #36d7b7; */
+
+    @media screen and (min-width: 768px) {
+        font-size: 56px;
+      }
+      @media screen and (min-width: 1200px) {
+        font-size: 64px;
+        font-weight: 700;
+      }
 }

@@ -1,6 +1,7 @@
 import Title from '../../components/shared/Title/Title';
 import RegisterForm from 'components/modules/RegisterForm/RegisterForm';
 import { useDispatch } from 'react-redux';
+import css from './register-page.module.css'
 import { signup } from '../../redux/auth/auth-operations';
 
 const RegisterPage = () => {
@@ -9,7 +10,7 @@ const RegisterPage = () => {
     dispatch(signup(data));
   };
   return (
-    <div>
+    <div className={css.section}>
       <Title>sign up</Title>
       <RegisterForm onSubmit={handleSignup} />
     </div>

@@ -6,12 +6,13 @@
 .container {
     max-width: 1220px;
     display: flex;
-    gap: 40px;
+    gap: 30px;
     justify-content: center;
     align-items: flex-start;
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 40px;
+    padding-top: 40px;
 }
 .wrapper {
     margin-bottom: 20px;
@@ -25,17 +26,17 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 450px;
-    min-height: 450px;
+    width: 400px;
+    min-height: 400px;
     gap: 20px;
     justify-content: flex-start;
     align-items: center;
     padding: 30px;
-    padding-top: 70px;
+    padding-top: 50px;
     background-color: transparent;
     border: solid 2px #36d7b7;
-    border-top-left-radius: 270px;
-    border-top-right-radius: 270px;
+    border-top-left-radius: 230px;
+    border-top-right-radius: 230px;
     flex-grow: 1;
     overflow-y: auto;
 }
@@ -46,8 +47,8 @@
     justify-content: center;
     align-items: center;
     padding: 30px;
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     background-color: transparent;
     border: solid 2px #36d7b7;
     border-radius: 50%;
