@@ -2,4 +2,5 @@
     min-height: 100vh;
     background-image:  url('../../images/bgHero1.jpg');
     background-size: cover;
+    padding-bottom: 40px;
 }
