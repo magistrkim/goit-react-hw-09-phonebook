@@ -1,13 +1,19 @@
 .list {
     display: grid;
     gap: 10px;
+
 }
 .item {
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 120px;
+    gap: 60px;
+
+    @media screen and (min-width: 601px) {
+        font-size: 16px;
+        gap: 120px;
+      }
 
 }
 .item:nth-child(even){

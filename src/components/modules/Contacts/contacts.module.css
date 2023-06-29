@@ -2,18 +2,34 @@
     min-height: 100vh;
     background-image:  url('../../../images/bgHero2.jpg');
     background-size: cover;
+    @media screen and (max-width: 1179.98px) {
+        padding-bottom: 40px;
+    }
+    
 }
 .container {
-    max-width: 1220px;
     display: flex;
-    gap: 30px;
+    flex-direction: column;
+    gap: 10px;
     justify-content: center;
-    align-items: flex-start;
-    margin: 0 auto;
-    padding: 20px;
-    margin-bottom: 40px;
+    align-items: center;
     padding-top: 40px;
+
+    
+    @media screen and (min-width: 1180px) {
+        max-width: 1180px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 40px;
+        padding-top: 40px;
+      }
 }
+
 .wrapper {
     margin-bottom: 20px;
 }
@@ -39,7 +55,10 @@
     border-top-right-radius: 230px;
     flex-grow: 1;
     overflow-y: auto;
+
+    
 }
+
 .emptyBlock {
     display: flex;
     flex-direction: column;
