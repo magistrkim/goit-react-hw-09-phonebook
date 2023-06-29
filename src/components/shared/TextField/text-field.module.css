@@ -6,6 +6,7 @@
 .label {
     text-transform: uppercase;
     font-size: 16px;
+    font-weight: 500;
     color: rgb(14, 65, 133);
 }
 .input {
@@ -16,6 +17,7 @@
     min-height: 30px;
     min-width: 240px;
     outline: none;
+
     &:hover {
         
         border: solid 1px  #36d7b7; 

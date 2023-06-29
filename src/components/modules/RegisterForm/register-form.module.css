@@ -1,3 +1,8 @@
+.section {
+    min-height: 100vh;
+    background-image:  url('../../../images/bgHero1.jpg');
+    background-size: cover;
+}
 .wrapper {
     width: 540px;
     margin: 0 auto;

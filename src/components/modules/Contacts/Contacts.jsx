@@ -39,7 +39,7 @@ const Contacts = () => {
   };
 
   return (
-    <>
+    <div className={css.section}>
       <div className={css.container}>
         <div className={css.wrapper}>
           <ContactForm onSubmit={handleAddContact} />
@@ -54,7 +54,7 @@ const Contacts = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

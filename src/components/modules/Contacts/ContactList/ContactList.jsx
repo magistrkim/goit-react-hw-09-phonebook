@@ -12,7 +12,6 @@ const ContactList = ({ contacts, removeContact }) => {
         className={css.item__btn}
         type="button"
       >
-        Delete
       </button>
     </li>
   ));

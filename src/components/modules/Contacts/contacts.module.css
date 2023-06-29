@@ -1,3 +1,8 @@
+.section {
+    min-height: 100vh;
+    background-image:  url('../../../images/bgHero2.jpg');
+    background-size: cover;
+}
 .container {
     max-width: 1220px;
     display: flex;
@@ -26,6 +31,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 30px;
+    padding-top: 70px;
     background-color: transparent;
     border: solid 2px #36d7b7;
     border-top-left-radius: 270px;
