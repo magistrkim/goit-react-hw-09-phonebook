@@ -38,6 +38,8 @@ const Contacts = () => {
     dispatch(setFilter(target.value));
   };
 
+  const isContactListEmpty = filteredContacts.length === 0;
+
   return (
     <div className={css.section}>
       <div className={css.container}>
@@ -45,7 +47,7 @@ const Contacts = () => {
           <ContactForm onSubmit={handleAddContact} />
         </div>
         <div className={css.wrapper}>
-          <div className={css.block}>
+           <div className={`${css.wrapper} ${isContactListEmpty ? css.emptyBlock : css.block}`}>
             <ContactFilter value={filter} handleChange={handleFilter} />
             <ContactList
               removeContact={handleRemoveContact}

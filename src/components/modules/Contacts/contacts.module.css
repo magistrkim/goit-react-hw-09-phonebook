@@ -39,6 +39,20 @@
     flex-grow: 1;
     overflow-y: auto;
 }
+.emptyBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 450px;
+    height: 450px;
+    background-color: transparent;
+    border: solid 2px #36d7b7;
+    border-radius: 50%;
+    
+}
 
 
 
