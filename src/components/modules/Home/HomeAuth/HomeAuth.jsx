@@ -6,7 +6,7 @@ const HomeAuth = () => {
     <>
       <section className={css.section}>
         <div className={css.container}>
-        <Title>Welcome to CO:CO app</Title>
+          <Title>Welcome to CO:CO app</Title>
         </div>
       </section>
     </>

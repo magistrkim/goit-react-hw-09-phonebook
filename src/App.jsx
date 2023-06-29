@@ -5,6 +5,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { store, persistor } from 'redux/store';
 import Navbar from './components/modules/Navbar/Navbar';
 import AuthLayout from 'components/modules/AuthLayout/AuthLayout';
+import Footer from 'components/modules/Footer/Footer';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
             <div className="App">
               <Navbar />
               <UserRoutes />
+              <Footer />
             </div>
           </BrowserRouter>
         </AuthLayout>

@@ -1,13 +1,11 @@
-import Contacts from "components/modules/Contacts/Contacts";
-// import Title from "components/shared/Title/Title";
+import Contacts from 'components/modules/Contacts/Contacts';
 
 const ContactsPage = () => {
-    return (
-        <div>
-            {/* <Title>Contacts page</Title> */}
-            <Contacts/>
-        </div>
-    )
-}
+  return (
+    <div>
+      <Contacts />
+    </div>
+  );
+};
 
 export default ContactsPage;
