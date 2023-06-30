@@ -20,7 +20,7 @@
         max-width: 1180px;
         display: flex;
         flex-direction: row;
-        gap: 30px;
+        gap: 20px;
         justify-content: center;
         align-items: flex-start;
         margin: 0 auto;
@@ -60,7 +60,7 @@
     @media screen and (min-width: 601px) {
         padding: 30px;
         padding-top: 60px;
-        width: 400px;
+        min-width: 400px;
         min-height: 400px;
         border-radius: 230px;
         padding-bottom: 200px;
