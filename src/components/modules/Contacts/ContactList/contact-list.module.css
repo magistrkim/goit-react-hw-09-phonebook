@@ -1,6 +1,7 @@
 .list {
     display: grid;
     gap: 10px;
+    padding-left: 0;
 
 }
 .item {
