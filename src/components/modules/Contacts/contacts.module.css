@@ -60,8 +60,8 @@
     @media screen and (min-width: 601px) {
         padding: 30px;
         padding-top: 60px;
-        min-width: 460px;
-        min-height: 40px;
+        min-width: 420px;
+        min-height: 420px;
         border-radius: 260px;
         padding-bottom: 200px;
       }
