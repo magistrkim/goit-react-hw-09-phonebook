@@ -19,12 +19,14 @@
     border-radius: 4px;
     color: #ffffff;
     text-transform: uppercase;
+    font-size: 12px;
     font-weight: 400;
 
     @media screen and (max-width: 767.98px) {
         margin-bottom: 10px;
       }
       @media screen and (min-width: 768px) {
+        font-size: 14px;
         padding: 8px 20px;
         border: 2px solid #ffffff;
         width: 120px;

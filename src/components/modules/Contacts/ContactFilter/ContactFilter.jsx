@@ -11,7 +11,7 @@ const ContactFilter = ({ handleChange, value }) => {
         value={value}
         className={css.input}
         onChange={handleChange}
-        placeholder="Please, type the name"
+        placeholder="Type the name"
         type="text"
         name="filter"
         pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
