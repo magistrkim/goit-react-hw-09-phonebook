@@ -15,6 +15,8 @@
     color: rgb(14, 65, 133);
     border-radius: 50%;
     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
     @media screen and (min-width: 768px) {
         font-size: 8px;
@@ -30,8 +32,8 @@
         align-items: center;
         font-size: smaller;
         font-weight: 600;
-        min-height: 120px;
-        min-width: 120px;
+        min-height: 100px;
+        width: 100px;
       }
 
     &:hover {
