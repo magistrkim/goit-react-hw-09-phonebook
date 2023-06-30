@@ -49,10 +49,10 @@
     align-items: center;
     padding: 30px;
     padding-top: 50px;
+    padding-bottom: 200px;
     background-color: transparent;
     border: solid 2px #36d7b7;
-    border-top-left-radius: 230px;
-    border-top-right-radius: 230px;
+    border-radius: 230px;
     flex-grow: 1;
     overflow-y: auto;
 
