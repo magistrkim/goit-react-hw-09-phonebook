@@ -26,7 +26,7 @@ The project is built using the following technologies and libraries:
 </ul>
 </span>
 
-# May CO-CO COntains your COntacts 
+# May "CO-CO" COntains your COntacts 
 
 <a>https://www.linkedin.com/in/nataliya-kachor-522170271/
 </a>
